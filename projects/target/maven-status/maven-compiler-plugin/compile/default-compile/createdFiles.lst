@@ -1,0 +1,6 @@
+module-info.class
+com/projects/App.class
+com/projects/Question.class
+com/projects/QuizService.class
+com/projects/PrimaryController.class
+com/projects/SecondaryController.class

@@ -1,0 +1,63 @@
+.root {
+    -fx-font-family: "System";
+    -fx-background-color: #0b1220;
+}
+
+.title {
+    -fx-font-size: 22px;
+    -fx-font-weight: 700;
+    -fx-text-fill: #e8eefc;
+}
+
+.question {
+    -fx-font-size: 16px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #e8eefc;
+}
+
+.muted {
+    -fx-text-fill: #9fb0d0;
+}
+
+.card {
+    -fx-background-color: rgba(255, 255, 255, 0.06);
+    -fx-background-radius: 12px;
+    -fx-border-color: rgba(255, 255, 255, 0.10);
+    -fx-border-radius: 12px;
+}
+
+.radio-button {
+    -fx-text-fill: #e8eefc;
+    -fx-padding: 8px 10px;
+    -fx-background-radius: 10px;
+}
+
+.radio-button:hover {
+    -fx-background-color: rgba(255, 255, 255, 0.06);
+}
+
+.radio-button.correct {
+    -fx-background-color: rgba(34, 197, 94, 0.22);
+    -fx-text-fill: #d6ffe4;
+}
+
+.radio-button.wrong {
+    -fx-background-color: rgba(239, 68, 68, 0.22);
+    -fx-text-fill: #ffe0e0;
+}
+
+.primary-button {
+    -fx-background-color: #3b82f6;
+    -fx-text-fill: white;
+    -fx-font-weight: 700;
+    -fx-background-radius: 10px;
+    -fx-padding: 10px 14px;
+}
+
+.primary-button:hover {
+    -fx-background-color: #2563eb;
+}
+
+.primary-button:disabled {
+    -fx-opacity: 0.55;
+}
